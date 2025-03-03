@@ -141,3 +141,4 @@ fabric.properties
 .sonarlint/
 
 # End of https://www.toptal.com/developers/gitignore/api/sonarqube,sonar
+/sonarlint/*
