@@ -119,3 +119,25 @@ fabric.properties
 .idea/**/azureSettings.xml
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij
+
+# Created by https://www.toptal.com/developers/gitignore/api/sonarqube,sonar
+# Edit at https://www.toptal.com/developers/gitignore?templates=sonarqube,sonar
+
+### Sonar ###
+#Sonar generated dir
+/.sonar/
+
+### SonarQube ###
+# SonarQube ignore files.
+#
+# https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+# Sonar Scanner working directories
+.sonar/
+.sonarqube/
+.scannerwork/
+
+# http://www.sonarlint.org/commandline/
+# SonarLint working directories, configuration files (including credentials)
+.sonarlint/
+
+# End of https://www.toptal.com/developers/gitignore/api/sonarqube,sonar
