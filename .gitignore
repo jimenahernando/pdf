@@ -1,37 +1,32 @@
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Compilados y archivos de build
+/target/
+*.class
 
-# Package Files #
-*.jar
-*.war
-*.ear
+# Logs
+*.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
 
-# Eclipse
-.classpath
-.project
-.settings/
-
-# Intellij
-.idea/
-*.iml
+# IDEs
+/.idea/
+/*.iml
 *.iws
+*.ipr
+/.vscode/
 
-# Mac
+# Sistema operativo
 .DS_Store
+Thumbs.db
+
+# Archivos de entorno
+.env
 
 # Maven
-log/
-target/
+.mvn/
+!**/src/main/**/.gitkeep
 
-# Inclusions
-!lib/**
-
-# Compiled Files
-*.class
-bin/
-build/
-/bin1/
-java/build/**
+# Archivos generados por Spring Boot
+spring.log
