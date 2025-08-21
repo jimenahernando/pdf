@@ -10,12 +10,14 @@
 *.bak
 *.swp
 
-# IDEs
-/.idea/
-/*.iml
-*.iws
-*.ipr
-/.vscode/
+# Ignorar toda la carpeta .idea (configuración de IntelliJ)
+.idea/
+
+# ignora subcarpetas específicas
+.idea/sonarlint/
+.idea/*.xml
+.idea/*.iml
+*.iml
 
 # Sistema operativo
 .DS_Store
